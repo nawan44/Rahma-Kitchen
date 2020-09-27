@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './css/index.css';
 // import App from './App';
 import Header from './component/header.jsx';
+import Carousely from './component/carousel.jsx';
 import Navmenu from './component/navmenu.jsx';
 import Content from './component/content.jsx';
 import Footer from './component/footer.jsx';
@@ -13,6 +14,7 @@ ReactDOM.render(
     {/* <App /> */}
 
     <Header/>
+    <Carousely />
     <Navmenu/>
     <Content/>
     <Footer/>
