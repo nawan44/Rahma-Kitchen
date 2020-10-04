@@ -4,7 +4,7 @@ class PaketSnack extends React.Component{
     render(){
         return(
            <div>
-               
+               Paket Snack
            </div>
         );
     }

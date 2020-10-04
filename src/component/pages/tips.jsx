@@ -4,7 +4,7 @@ class Tips extends React.Component{
     render(){
         return(
            <div>
-               
+               Tips Trik
            </div>
         );
     }

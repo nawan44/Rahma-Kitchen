@@ -4,7 +4,7 @@ class KueKering extends React.Component{
     render(){
         return(
            <div>
-               
+               Kue Kering
            </div>
         );
     }

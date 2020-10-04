@@ -18,20 +18,20 @@ const Navmenu = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="#">Bento</NavLink>
+              <NavLink href="bento">Bento</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">Cara Pemesanan</NavLink>
+              <NavLink href="order">Cara Pemesanan</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 Kue
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem>
+                <DropdownItem href="kuekering">
                   Kue Kering
                 </DropdownItem>
-                <DropdownItem>
+                <DropdownItem href="kuebasah">
                   Kue Basah
                 </DropdownItem>
 
@@ -42,23 +42,25 @@ const Navmenu = (props) => {
                 Paket
               </DropdownToggle>
               <DropdownMenu right>
-              <DropdownItem>
+              <DropdownItem href="paketbento">
                   Bento
                 </DropdownItem>
-                <DropdownItem>
+                <DropdownItem href="paketsnack">
                   Snack Box
                 </DropdownItem>
-                <DropdownItem>
+                <DropdownItem href="paketwedding">
                   Kue Pernikahan
                 </DropdownItem>
 
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink href="#">Tips Trik</NavLink>
+              <NavLink href="tipstrik">Tips Trik</NavLink>
             </NavItem>
           </Nav>
-          <NavbarText>Contact</NavbarText>
+          <NavbarText >
+            <NavLink href="contact">Contact</NavLink>
+            </NavbarText>
         </Collapse>
       </Navbar>
     </div>

@@ -4,7 +4,7 @@ class Bento extends React.Component{
     render(){
         return(
            <div>
-               
+               Bento
            </div>
         );
     }

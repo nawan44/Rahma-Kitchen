@@ -4,7 +4,7 @@ class PaketWedding extends React.Component{
     render(){
         return(
            <div>
-               
+               Paket Wedding
            </div>
         );
     }
