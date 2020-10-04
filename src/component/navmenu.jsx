@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import {Collapse, Navbar, NavbarToggler,
+import {
+  Collapse, Navbar, NavbarToggler,
   NavbarBrand, Nav, NavItem, NavLink, UncontrolledDropdown,
   DropdownToggle, DropdownMenu, DropdownItem, NavbarText
 } from 'reactstrap';
@@ -12,7 +13,7 @@ const Navmenu = (props) => {
 
   return (
     <div className="navmen" >
-      <Navbar  color="light" light expand="md">
+      <Navbar color="light" light expand="md">
         <NavbarBrand href="/" className="logo">Rahma Kitchen</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
@@ -42,7 +43,7 @@ const Navmenu = (props) => {
                 Paket
               </DropdownToggle>
               <DropdownMenu right>
-              <DropdownItem href="paketbento">
+                <DropdownItem href="paketbento">
                   Bento
                 </DropdownItem>
                 <DropdownItem href="paketsnack">
@@ -59,8 +60,8 @@ const Navmenu = (props) => {
             </NavItem>
           </Nav>
           <NavbarText >
-            <NavLink href="contact">Contact</NavLink>
-            </NavbarText>
+            <NavLink href="contact">Kontak Kami</NavLink>
+          </NavbarText>
         </Collapse>
       </Navbar>
     </div>

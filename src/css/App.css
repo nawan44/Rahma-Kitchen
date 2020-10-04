@@ -2,12 +2,17 @@
   text-align: center;
 }
 body{
-  background-color: dimgray;
+  background:  linear-gradient(to right, #fffc00, red) ; 
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.contact{
+  padding: 30px;
+  font-size: 20px;
+  margin: 0 0 0 30px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

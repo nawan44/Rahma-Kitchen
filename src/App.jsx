@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import './css/App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-// import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import Bento from './component/pages/bento';
 import Contact from './component/pages/contact';
 import KueBasah from './component/pages/kueBasah';

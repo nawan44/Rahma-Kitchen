@@ -1,24 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './css/index.css';
+import './component/pages/css/contact.css';
+import './component/css/navmenu.css';
+
 import App from './App';
-import Header from './component/header.jsx';
+// import Header from './component/header.jsx';
 import Carousely from './component/carousel.jsx';
 import Navmenu from './component/navmenu.jsx';
-import Content from './component/content.jsx';
 import Footer from './component/footer.jsx';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.StrictMode >
 
-    <Navmenu/>
-    <Header/>
+    <Navmenu />
+    {/* <Header/> */}
     <Carousely />
-    <App/>
-    {/* <Content/> */}
-    <Footer/>
+    <App />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
