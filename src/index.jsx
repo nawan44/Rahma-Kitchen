@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './css/index.css';
 import './component/pages/css/contact.css';
+import './component/pages/css/order.css';
+
 import './component/css/navmenu.css';
 
 import App from './App';
