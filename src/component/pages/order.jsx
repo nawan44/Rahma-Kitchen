@@ -15,7 +15,7 @@ class Order extends React.Component {
                 <hr /> <br />
 
                 <ol>
-                    <li>Isi Form pemesanan berikut ini.<a href="https://bit.ly">bit.ly</a></li>
+                    <li>Isi Form pemesanan berikut ini.<a href="form-order">Form Pemesanan</a></li>
                     <li>Tunggu Konfirmasi dari admin</li>
                     <li>Lakukan transfer sesuai dengan nominal yang diinfokan admin</li>
                     {/* <AccountBalanceIcon /><br /> */}
