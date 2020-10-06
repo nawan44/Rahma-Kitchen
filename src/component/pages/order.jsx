@@ -25,11 +25,11 @@ class Order extends React.Component {
                     No rekening : 12345678
                     </p>
                     <p><img src={mandiri} style={logoBank} /><br />
-                    Bank BCA <br />
+                    Bank Mandiri <br />
                     Cabang Harapan Indah<br />
                     No rekening : 12345678
                     </p>
-                    <li>Lakukan konfirmasi transfer ke .<a href="https://bit.ly">bit.ly</a></li>
+                    <li>Lakukan konfirmasi transfer ke .<a href="form-confirm">Form Konfirmasi</a></li>
                     <li>Tunggu Konfirmasi dari admin</li>
                     <li>Order akan dibuat sesuai dengan pesanan</li>
                 </ol>

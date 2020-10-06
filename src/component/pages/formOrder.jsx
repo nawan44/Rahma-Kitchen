@@ -19,7 +19,7 @@ class FormOrder extends React.Component {
                             type="number"
                             name="number"
                             id="exampleNumber"
-                            placeholder="number placeholder"
+                            placeholder="08111xxx"
                         />
                     </FormGroup>
                     <FormGroup>

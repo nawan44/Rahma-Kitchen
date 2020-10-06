@@ -12,6 +12,7 @@ import PaketWedding from './component/pages/paketWed';
 import Tips from './component/pages/tips';
 import Content from './component/content';
 import FormOrder from './component/pages/formOrder';
+import FormConfirm from './component/pages/formConfirm';
 
 export default class App extends Component {
   render() {
@@ -30,6 +31,7 @@ export default class App extends Component {
           <Route path='/paketwedding' component={PaketWedding} />
           <Route path='/tipstrik' component={Tips} />
           <Route path='/form-order' component={FormOrder} />
+          <Route path='/form-confirm' component={FormConfirm} />
 
 
         </Switch>
