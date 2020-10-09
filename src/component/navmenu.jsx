@@ -60,11 +60,14 @@ const Navmenu = (props) => {
             </NavItem>
           </Nav>
           <NavbarText >
+            <NavLink href="admin">Admin ---No Offense---</NavLink>
+          </NavbarText>
+          <NavbarText >
             <NavLink href="contact">Kontak Kami</NavLink>
           </NavbarText>
         </Collapse>
       </Navbar>
-    </div>
+    </div >
   );
 }
 
