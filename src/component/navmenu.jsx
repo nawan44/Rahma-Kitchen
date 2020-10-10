@@ -60,7 +60,7 @@ const Navmenu = (props) => {
             </NavItem>
           </Nav>
           <NavbarText >
-            <NavLink href="admin">Admin ---No Offense---</NavLink>
+            <NavLink href="admin">Admin </NavLink>
           </NavbarText>
           <NavbarText >
             <NavLink href="contact">Kontak Kami</NavLink>

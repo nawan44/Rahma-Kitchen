@@ -1,7 +1,18 @@
+.container {
+    width: 100%;
+}
+.admin{
+    width: 100%;
+}
 .login{
     background-color: cornflowerblue;
     width: 70%;
     margin : 0 auto;
     padding: 20px;
+ 
     margin-bottom: 50px;
+}
+.sidebar{
+    width: 20%;
+    float: left;
 }

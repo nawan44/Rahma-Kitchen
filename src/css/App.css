@@ -2,7 +2,7 @@
   text-align: center;
 }
 body{
-  background:  linear-gradient(to right, #fffc00, red) ; 
+  background:  linear-gradient(to right,#ffff, #fffc00 80%, red ) ; 
 }
 
 .App-logo {

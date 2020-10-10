@@ -2,6 +2,7 @@ import React from 'react';
 import { Carousel, Jumbotron, Form, FormGroup, Button, Input, Label } from 'reactstrap';
 import './css/admin.css';
 import Content from '../../content';
+import SideBar from './sideBar';
 
 class Admin extends React.Component {
     constructor() {
@@ -21,14 +22,14 @@ class Admin extends React.Component {
         const renderButton = () => {
             if (isLoggedIn) {
                 return (
-                    <div >
+                    <div className="admin">
                         {/* <NavAdmin/> */}
                         {/* <Carousel/> */}
                         <div className="login">
                             <Button block onClick={this.logoutMethod}>Logout</Button>
                         </div>
+                        <SideBar />
                         <Content />
-                        Admin
                         {/* <Footer/> */}
                     </div>
                 );
