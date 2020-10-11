@@ -1,8 +1,10 @@
 import React from 'react';
-import { Carousel, Jumbotron, Form, FormGroup, Button, Input, Label } from 'reactstrap';
+import { Form, FormGroup, Button, Input, Label } from 'reactstrap';
 import './css/admin.css';
 import Content from '../../content';
 import SideBar from './sideBar';
+import Login from './login';
+
 
 class Admin extends React.Component {
     constructor() {
@@ -38,31 +40,7 @@ class Admin extends React.Component {
             }
             else {
                 return (
-                    <div className="login">
-                        <Form>
-                            <Label><h1>LOGIN ADMIN</h1></Label>
-                            <hr />
-                            <FormGroup>
-                                <Label for="text">Username</Label>
-                                <Input type="text"
-                                    name="username"
-                                    id="username"
-                                    placeholder="username"
-                                />
-                            </FormGroup>
-                            <FormGroup>
-                                <Label for="exampleNumber">Password</Label>
-                                <Input
-                                    type="password"
-                                    name="password"
-                                    id="password"
-                                    placeholder="password"
-                                />
-                            </FormGroup>
-                            <Button block onClick={this.loginMethod}>Login</Button>
-
-                        </Form>
-                    </div>
+                    <Login />
                 );
             }
         }

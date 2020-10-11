@@ -14,7 +14,7 @@ import Content from './component/content';
 import FormOrder from './component/pages/formOrder';
 import FormConfirm from './component/pages/formConfirm';
 import Admin from './component/pages/admin/admin';
-
+import Login from './component/pages/admin/login';
 
 export default class App extends Component {
   render() {
@@ -34,7 +34,8 @@ export default class App extends Component {
           <Route path='/tipstrik' component={Tips} />
           <Route path='/form-order' component={FormOrder} />
           <Route path='/form-confirm' component={FormConfirm} />
-          <Route pat='admin' component={Admin} />
+          <Route path='/admin' component={Admin} />
+          <Route path='/login' component={Login} />
 
         </Switch>
       </BrowserRouter>

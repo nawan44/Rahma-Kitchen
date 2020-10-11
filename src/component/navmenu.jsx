@@ -6,6 +6,7 @@ import {
 } from 'reactstrap';
 import './css/navmenu.css';
 
+
 const Navmenu = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -60,7 +61,10 @@ const Navmenu = (props) => {
             </NavItem>
           </Nav>
           <NavbarText >
-            <NavLink href="admin">Admin </NavLink>
+            <NavLink href="login">---Login </NavLink>
+          </NavbarText>
+          <NavbarText >
+            <NavLink href="admin"> Admin--- </NavLink>
           </NavbarText>
           <NavbarText >
             <NavLink href="contact">Kontak Kami</NavLink>
