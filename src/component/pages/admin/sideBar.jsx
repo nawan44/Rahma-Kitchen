@@ -7,7 +7,7 @@ class SideBar extends React.Component {
             <div class="container" className="sidebar">
                 <ul >
                     <li><a href="./">Home</a></li>
-                    <li><a href="#">Input Produk</a></li>
+                    <li><a href="input-produk">Input Produk</a></li>
                     <li><a href="#">Input Paket</a></li>
                     <li><a href="#">Input Tips Trik</a></li>
                     <li><a href="#">Total Jualan</a></li>

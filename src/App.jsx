@@ -15,6 +15,7 @@ import FormOrder from './component/pages/formOrder';
 import FormConfirm from './component/pages/formConfirm';
 import Admin from './component/pages/admin/admin';
 import Login from './component/pages/admin/login';
+import InputProduk from './component/pages/admin/inputProduk';
 
 export default class App extends Component {
   render() {
@@ -36,6 +37,8 @@ export default class App extends Component {
           <Route path='/form-confirm' component={FormConfirm} />
           <Route path='/admin' component={Admin} />
           <Route path='/login' component={Login} />
+          <Route path='/input-produk' component={InputProduk} />
+
 
         </Switch>
       </BrowserRouter>
