@@ -1,10 +1,10 @@
 import React from 'react';
-import './css/input-produk.css';
+import './css/input-paket.css';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import SideBar from './sideBar';
 import './css/admin.css';
 
-class InputProduk extends React.Component {
+class InputPaket extends React.Component {
     render() {
         return (
             <div className="admin">
@@ -12,11 +12,11 @@ class InputProduk extends React.Component {
                     <SideBar />
                 </div>
 
-                <div className="info-produk">
+                <div className="info-paket">
                     <Form>
-                        <h1 className="h1">INPUT PRODUK</h1>
+                        <h1 className="h1">INPUT PAKET</h1>
                         <FormGroup>
-                            <Label for="text">Nama Produk</Label>
+                            <Label for="text">Nama Paket</Label>
                             <Input />
                         </FormGroup>
                         <FormGroup>
@@ -48,4 +48,4 @@ class InputProduk extends React.Component {
     }
 
 }
-export default InputProduk;
+export default InputPaket;
