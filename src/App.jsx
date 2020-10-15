@@ -17,6 +17,7 @@ import Admin from './component/pages/admin/admin';
 import Login from './component/pages/admin/login';
 import InputProduk from './component/pages/admin/inputProduk';
 import InputPaket from './component/pages/admin/inputPaket';
+import DaftarPesanan from './component/pages/admin/daftarPesanan';
 
 export default class App extends Component {
   render() {
@@ -40,6 +41,7 @@ export default class App extends Component {
           <Route path='/login' component={Login} />
           <Route path='/input-produk' component={InputProduk} />
           <Route path='/input-paket' component={InputPaket} />
+          <Route path='/daftar-pesanan' component={DaftarPesanan} />
 
 
         </Switch>
