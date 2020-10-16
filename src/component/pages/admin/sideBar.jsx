@@ -11,7 +11,7 @@ class SideBar extends React.Component {
                     <li><a href="input-paket">Input Paket</a></li>
                     <li><a href="#">Input Tips Trik</a></li>
                     <li><a href="daftar-pesanan">Daftar Pesanan</a></li>
-                    <li><a href="#">Total Jualan</a></li>
+                    <li><a href="rekap-pesanan">Rekap Pesanan</a></li>
                 </ul>
             </div>
         );
